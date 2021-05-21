@@ -77,7 +77,7 @@ const trial_info = {
     underline: 'none'
   },
   {
-    sentence: "Eben | ist | Ezra| an | mir | vorbeigelaufen, | ohne | mich | zu | begrüßen. | Scheinbar | hatte | si*er | es | eilig.",
+    sentence: "Eben | ist | Ezra | an | mir | vorbeigelaufen, | ohne | mich | zu | begrüßen. | Scheinbar | hatte | si*er | es | eilig.",
     question: "War Ezra mit dem Fahrrad unterwegs?",
     option1: "Ja",
     option2: "Nein",
