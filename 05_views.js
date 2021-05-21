@@ -34,7 +34,6 @@ const intro = magpieViews.view_generator("intro", {
             <br />
             Selbstverständlich können Sie das Experiment zu jedem Zeitpunkt abbrechen.
             <br />
-            <br />
             <br />Bei Fragen wenden Sie sich bitte an <a href="mailto:lesley-ann.kern@rub.de">Lesley-Ann Kern</a>, Ruhr-Universität Bochum.
             <br />
             <br />Mehr zum Ziel des Experiments und zur Aufgabenstellung erfahren Sie auf der folgenden Seite. Die Durchführung des Experiments dauert ca. ## Minuten.
@@ -54,7 +53,7 @@ const instructions = magpieViews.view_generator("instructions", {
   Dafür werden Ihnen im Folgenden Sätze präsentiert, die Sie lesen sollen. Im Anschluss an einige Sätze wird Ihnen eine Frage zum Inhalt des Satzes gestellt. 
   <br />
   <br />
-  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, und das nächste Wort erscheint. *Sie können im Satz nicht zurück gehen.*
+  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, und das nächste Wort erscheint. <b>Sie können im Satz nicht zurück gehen.</b>
   <br />
   <br />
   Bitte lesen Sie möglichst in Ihrem natürlichen Lesetempo. 
