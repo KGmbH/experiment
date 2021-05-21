@@ -31,11 +31,13 @@ const intro = magpieViews.view_generator("intro", {
             <br />
             Mit Ihrer Teilnahme am Experiment bestätigen Sie, dass Sie mit diesem Vorhaben einverstanden sind. 
             <br />
+            <br />
             Selbstverständlich können Sie das Experiment zu jedem Zeitpunkt abbrechen.
+            <br />
             <br />
             <br />Bei Fragen wenden Sie sich bitte an <a href="mailto:lesley-ann.kern@rub.de">Lesley-Ann Kern</a>, Ruhr-Universität Bochum.
             <br />
-            <br />Mehr zum Ziel des Experiments und zur Aufgabenstellung erfahren Sie auf der folgenden Seite. Die Durchführung des Experiments dauert ca. ## Minuten. />
+            <br />Mehr zum Ziel des Experiments und zur Aufgabenstellung erfahren Sie auf der folgenden Seite. Die Durchführung des Experiments dauert ca. ## Minuten.
 `,
     buttonText: 'Weiter zur Aufgabenstellung',
     title: 'Hallo!'
@@ -46,12 +48,17 @@ const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'Aufgabenstellung',
-  text: `Ziel des Experiments ist, Lesezeiten in bestimmten Satzkonstruktionen zu untersuchen. Dafür werden Ihnen im Folgenden Sätze präsentiert, die Sie lesen sollen. Im Anschluss an einige Sätze wird Ihnen eine Frage zum Inhalt des Satzes gestellt. 
+  text: `Ziel des Experiments ist, Lesezeiten in bestimmten Satzkonstruktionen zu untersuchen. 
   <br />
   <br />
-  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, und das nächste Wort erscheint. Sie können im Satz nicht zurück gehen.
+  Dafür werden Ihnen im Folgenden Sätze präsentiert, die Sie lesen sollen. Im Anschluss an einige Sätze wird Ihnen eine Frage zum Inhalt des Satzes gestellt. 
+  <br />
+  <br />
+  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, und das nächste Wort erscheint. *Sie können im Satz nicht zurück gehen.*
+  <br />
   <br />
   Bitte lesen Sie möglichst in Ihrem natürlichen Lesetempo. 
+  <br />
   <br />
   Wichtig: Das Experiment kann nicht auf Mobilgeräten, sondern nur an einem Computer/Laptop mit Tastatur durchgeführt werden. 
    <br>
