@@ -23,20 +23,22 @@ const intro = magpieViews.view_generator("intro", {
   trials: 1,
   name: 'intro',
   // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-  text: `Vielen Dank für Ihre Teilnahme an unserem online-Leseexperiment. 
+  text: `Herzlich willkommen bei meinem digitalen Leseexperiment. 
             <br />
             <br />
-            Die Teilnahme am Experiment ist freiwillig. Sie können die Teilnahme jederzeit abbrechen, ohne negative Konsequenzen zu erwarten. 
+            Mein Name ist Lesley-Ann Kern und ich schreibe aktuell meine Masterarbeit im Fach Germanistik an der Ruhr-Universität Bochum. Dieses digitale Leseexperiment ist Teil meiner Abschlussarbeit. Die Ergebnisse des Experiments werde ich in meiner Arbeit auswerten – allerdings wird kein Rückschluss auf Einzelpersonen möglich sein und alle Daten werden selbstverständlich anonymisiert. 
             <br />
             <br />
-            Ihre Antworten aus diesem Experiment werden ausschließlich zu wissenschaftlichen Zwecken aufgezeichnet und ausgewertet. Die Daten werden anonym gespeichert und können an andere Wissenschaftler*innen weitergegeben werden.
+            Mit Ihrer Teilnahme am Experiment bestätigen Sie, dass Sie mit diesem Vorhaben einverstanden sind. 
             <br />
-            <br />Bei Fragen wenden Sie sich bitte an <a href="mailto:tatjana.scheffler@rub.de">Tatjana Scheffler</a>, Ruhr-Universität Bochum.
+            Selbstverständlich können Sie das Experiment zu jedem Zeitpunkt abbrechen.
             <br />
-            <br />Durch Ihre Teilnahme bestätigen Sie, dass Sie mit diesen Teilnahmebedingungen einverstanden sind.<br />
+            <br />Bei Fragen wenden Sie sich bitte an <a href="mailto:lesley-ann.kern@rub.de">Lesley-Ann Kern</a>, Ruhr-Universität Bochum.
+            <br />
+            <br />Mehr zum Ziel des Experiments und zur Aufgabenstellung erfahren Sie auf der folgenden Seite. Die Durchführung des Experiments dauert ca. ## Minuten. />
 `,
-    buttonText: 'Experiment beginnen',
-    title: 'Willkommen!'
+    buttonText: 'Weiter zur Aufgabenstellung',
+    title: 'Hallo!'
 });
 
 // For most tasks, you need instructions views
@@ -44,9 +46,15 @@ const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'Aufgabenstellung',
-  text: `Dieses Experiment besteht aus kurzen Texten, manchmal gefolgt von einer kurzen Verständnisfrage. Ihre Aufgabe ist es, die Sätze zu lesen und die dazugehörige Frage (wenn vorhanden) zu beantworten. <br><br>Die Sätze werden nicht auf einmal eingeblendet, sondern Sie können die Wörter einzeln mit der Leertaste anzeigen lassen. Sie können im Satz nicht mehr zurück gehen. <br><br>
-         Bitte lesen Sie sich die Sätze aufmerksam aber <b>in Ihrer gewohnten Lese-Geschwindigkeit</b> durch und beantworten Sie die Fragen aufgrund Ihres intuitiven Verständnisses der Situation.<br><br>
-Bitte beachten Sie, dass Sie das Experiment auf einem Computer mit Tastatur (nicht auf einem mobilen Gerät) durchführen sollten.<br>
+  text: `Ziel des Experiments ist, Lesezeiten in bestimmten Satzkonstruktionen zu untersuchen. Dafür werden Ihnen im Folgenden Sätze präsentiert, die Sie lesen sollen. Im Anschluss an einige Sätze wird Ihnen eine Frage zum Inhalt des Satzes gestellt. 
+  <br />
+  <br />
+  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, und das nächste Wort erscheint. Sie können im Satz nicht zurück gehen.
+  <br />
+  Bitte lesen Sie möglichst in Ihrem natürlichen Lesetempo. 
+  <br />
+  Wichtig: Das Experiment kann nicht auf Mobilgeräten, sondern nur an einem Computer/Laptop mit Tastatur durchgeführt werden. 
+   <br>
 `,
   buttonText: 'Start'
 });
@@ -57,7 +65,7 @@ const post_test = magpieViews.view_generator("post_test", {
   trials: 1,
   name: 'post_test',
   title: 'Weitere Informationen',
-    text: 'Diese Angaben sind freiwillig, aber sie helfen uns bei der Analyse der Ergebnisse.<br/>Bitte klicken Sie zuletzt unbedingt unten auf "WEITER", da Ihre Daten sonst nicht gespeichert werden.',
+    text: 'Diese Angaben sind komplett freiwillig, helfen mir allerdings bei der Auswertung der Ergebnisse. <br/>Bitte klicken Sie zuletzt unbedingt unten auf "WEITER", da Ihre Daten sonst nicht gespeichert werden.',
 
   // You can change much of what appears here, e.g., to present it in a different language, as follows:
    buttonText: 'Weiter',
@@ -79,7 +87,7 @@ const post_test = magpieViews.view_generator("post_test", {
 const thanks = magpieViews.view_generator("thanks", {
   trials: 1,
   name: 'thanks',
-  title: 'Vielen Dank für Ihre Teilnahme an unserem Experiment!',
+  title: 'Vielen Dank für Ihre Teilnahme an meinem Leseexperiment!',
   prolificConfirmText: 'Bitte Knopf drücken'
 });
 

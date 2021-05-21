@@ -59,9 +59,10 @@ const post_test_customized = magpieViews.view_generator(
                             <option></option>
                             <option value="keine">Ich habe keine Einstellung dazu.</option>
                             <option value="furchtbar">Ich finde geschlechtergerechte Sprache furchtbar.</option>
-                            <option value="manchmal">manchmal</option>
-                            <option value="häufig">häufig</option>
-                            <option value="beinahe immer">beinahe immer</option>
+                            <option value="schlecht">Ich finde geschlechtergerechte Sprache schlecht.</option>
+                            <option value="egal">Ich finde geschlechtergerechte Sprache egal.</option>
+                            <option value="gut">Ich finde geschlechtergerechte Sprache gut.</option>
+                            <option value="wichtig">Ich finde geschlechtergerechte Sprache wichtig.</option>
                         </select>
                     <p class='magpie-view-text'>
                         <label for="age">${quest.age.title}:</label>
