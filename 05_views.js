@@ -53,7 +53,7 @@ const instructions = magpieViews.view_generator("instructions", {
   Dafür werden Ihnen im Folgenden Sätze präsentiert, die Sie lesen sollen. Im Anschluss an einige Sätze wird Ihnen eine Frage zum Inhalt des Satzes gestellt. 
   <br />
   <br />
-  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, und das nächste Wort erscheint. <b>Sie können im Satz nicht zurück gehen.</b>
+  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, und das nächste Wort erscheint. Sie können im Satz nicht zurück gehen.
   <br />
   <br />
   Bitte lesen Sie möglichst in Ihrem natürlichen Lesetempo. 
