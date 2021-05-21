@@ -30,7 +30,7 @@ const post_test_customized = magpieViews.view_generator(
         trials: 1,
         name: 'post_test',
   title: 'Weitere Informationen',
-    text: 'Diese Angaben sind freiwillig, aber sie helfen uns bei der Analyse der Ergebnisse. Bitte klicken Sie zuletzt unbedingt unten auf "WEITER", da Ihre Daten sonst nicht gespeichert werden.',
+    text: 'Diese Angaben sind komplett freiwillig, helfen mir allerdings bei der Auswertung der Ergebnisse. Bitte klicken Sie zuletzt unbedingt unten auf "WEITER", da Ihre Daten sonst nicht gespeichert werden.',
 
   // You can change much of what appears here, e.g., to present it in a different language, as follows:
    buttonText: 'Weiter',
@@ -54,11 +54,11 @@ const post_test_customized = magpieViews.view_generator(
         const quest = magpieUtils.view.fill_defaults_post_test(config);
         return `<form>
                     <p class='magpie-view-text'>
-                     <label for="emoji">Wie häufig verwenden Sie Emojis?</label>
-                     <select id="emoji" name="emoji">
+                     <label for="emoji">Wie ist Ihre Einstellung in Bezug auf geschlechtergerechte Sprache?</label>
+                     <select id="gender" name="gender">
                             <option></option>
-                            <option value="nie">nie</option>
-                            <option value="selten">selten</option>
+                            <option value="keine">Ich habe keine Einstellung dazu.</option>
+                            <option value="furchtbar">Ich finde geschlechtergerechte Sprache furchtbar.</option>
                             <option value="manchmal">manchmal</option>
                             <option value="häufig">häufig</option>
                             <option value="beinahe immer">beinahe immer</option>
