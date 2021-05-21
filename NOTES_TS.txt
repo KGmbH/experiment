@@ -1,0 +1,27 @@
+edit this for 2021
+
+====================
+
+Webseite Experiment:
+https://linguistics-experiment.netlify.com/
+
+Webhosting Experiment (für Änderungen mit drag-n-drop):
+https://app.netlify.com/sites/linguistics-experiment/overview
+
+Webzugang Datenbank: https://thrifty-narrow-sugarglider.gigalixirapp.com/experiments
+
+
+(Pretest-Datenbank war hier:
+https://magpie-demo.herokuapp.com/experiments/86
+)
+
+ANLEITUNGEN
+===========
+
+https://github.com/magpie-ea/magpie-backend
+
+https://magpie-ea.github.io/magpie-docs/
+
+https://magpie-ea.github.io/magpie-esslli-2019-course-material/
+
+
