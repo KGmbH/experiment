@@ -66,7 +66,7 @@ const instructions = magpieViews.view_generator("instructions", {
 });
 
 // Instruktionen zur Weiterverwendung
-const instructions = magpieViews.view_generator("instructions2", {
+const instructions2 = magpieViews.view_generator("instructions2", {
     trials: 1,
     name: 'instructions2',
     title: 'Nachbefragung',
