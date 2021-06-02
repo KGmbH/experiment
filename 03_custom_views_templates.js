@@ -45,6 +45,8 @@ const post_test_customized = magpieViews.view_generator(
    edu_higher_degree: 'Hochschulabschluss',
    languages_question: 'Muttersprache',
    languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
+   text: 'Hier kommt Text',
+   wdh_question:'Ihr Code',
    comments_question: 'Kommentare zum Experiment'
 },
     // custom generator functions
@@ -89,6 +91,10 @@ const post_test_customized = magpieViews.view_generator(
                     <p class='magpie-view-text'>
                         <label for="languages" name="languages">${quest.langs.title}:<br /><span>${quest.langs.text}</</span></label>
                         <input type="text" id="languages"/>
+                    </p>
+                    <p class='magpie-view-text'>
+                        <label for="wdh" name="wdh">${quest.wdh.title}:<br /><span>${quest.wdh.text}</</span></label>
+                        <input type="text" id="wdh"/>
                     </p>
                     <p class="magpie-view-text">
                         <label for="comments">${quest.comments.title}</label>
