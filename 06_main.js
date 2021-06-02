@@ -20,7 +20,6 @@ $(window).on("load", function() {
             instructions,
 	    spr_tryout,
 	    spr_test,
-            instructions2,
             post_test_customized,
             thanks,
         ],
