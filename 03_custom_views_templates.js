@@ -45,8 +45,8 @@ const post_test_customized = magpieViews.view_generator(
    edu_higher_degree: 'Hochschulabschluss',
    languages_question: 'Muttersprache',
    languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
-   text: 'Hier kommt Text',
    wdh_question:'Ihr Code',
+   wdh_more: 'Möchten Sie in zwei Wochen erneut aam Experiment teilnehmen, geben Sie hier Ihren persönlichen Code an.',
    comments_question: 'Kommentare zum Experiment'
 },
     // custom generator functions
