@@ -45,8 +45,6 @@ const post_test_customized = magpieViews.view_generator(
    edu_higher_degree: 'Hochschulabschluss',
    languages_question: 'Muttersprache',
    languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
-   wdh_question: 'wdh',
-   wdh_more: '(wdh)',
    comments_question: 'Kommentare zum Experiment'
 },
     // custom generator functions
@@ -92,10 +90,6 @@ const post_test_customized = magpieViews.view_generator(
                         <label for="languages" name="languages">${quest.langs.title}:<br /><span>${quest.langs.text}</</span></label>
                         <input type="text" id="languages"/>
                     </p>
-                    <p class='magpie-view-text'>
-                    <label for="wdh" name="wdh">${quest.wdh.title}:<br /><span>${quest.wdh.text}</</span></label>
-                    <input type="text" id="wdh"/>
-                </p>
                     <p class="magpie-view-text">
                         <label for="comments">${quest.comments.title}</label>
                         <textarea name="comments" id="comments" rows="6" cols="40"></textarea>
@@ -115,7 +109,6 @@ const post_test_customized = magpieViews.view_generator(
 		magpie.global_data.gender = $("#gender").val();
 		magpie.global_data.education = $("#education").val();
 		magpie.global_data.languages = $("#languages").val();
-        magpie.global_data.wdh = $("#wdh").val();
 		magpie.global_data.comments = $("#comments")
 		    .val()
 		    .trim();
