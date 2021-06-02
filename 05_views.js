@@ -65,19 +65,6 @@ const instructions = magpieViews.view_generator("instructions", {
   buttonText: 'Start'
 });
 
-// Instruktionen zur Weiterverwendung
-const instructions2 = magpieViews.view_generator("instructions2", {
-    trials: 1,
-    name: 'instructions2',
-    title: 'Nachbefragung',
-    text: `Herzlichen Dank für Ihre Teilnahme! Um die Überprüfbarkeit der Ergebnisse zu optimieren, wäre es toll, wenn Sie in zwei Wochen erneut am Experiment teilnehmen würden. <b>Dafür müssen Sie an dieser Stelle einen einzigartigen, aber anonymen Code generieren, damit Ihre Ergebnisse bei der Auswertung zusammengeführt werden können.</b>
-    Der Code setzt sich folgendermaßen zusammen: 2. und 3. Buchstabe Ihres Vornames + 2. und 3. Buchstabe des Vornamens Ihrer Mutter. 
-   <b> Beispiel: Vorname Polly, Vorname der Mutter Erna: Code lautet OLRN.</b>
-
-    'Möchten Sie nicht noch einmal am Experiment teilnehmen, kicken Sie einfach auf "Weiter".  `,
-    comments_question: 'Code',
-    buttonText: 'Weiter'
-  });
 
 // In the post test questionnaire you can ask your participants addtional questions
 const post_test = magpieViews.view_generator("post_test", {
