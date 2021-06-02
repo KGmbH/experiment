@@ -64,17 +64,15 @@ const trial_info = {
     underline: 'none'
   },
   {
-    sentence: "Obwohl | wir | gut | befreundet | sind, | kommt | Kyo | selten | vorbei. | Der | Grund | ist | vermutlich, | dass | si*er | eine | starke | Katzenhaarallergie | hat.",
-    question: "Ist Kyo allergisch gegen Katzen?",
+    sentence: "Der | Mensch, | der | sich | da | drüben | sonnt, | sollte | sich | schnell | eincremen. | Er | bekommt | sonst | Sonnenbrand.",
+    question: "Ist es sonnig?",
     option1: "Ja",
     option2: "Nein",
     correct_answer: "Ja",
-    itemname: 'name_katze',
+    itemname: "filler_sonne",
     participant_group: "A",
     participant_id: participantID,
-    condition: "word",
-    wordPos: 'same',
-    underline: 'none'
+    condition: "BGP"
   },
   {
     sentence: "Eben | ist | Ezra | an | mir | vorbeigelaufen, | ohne | mich | zu | begrüßen. | Scheinbar | hatte | si*er | es | eilig.",
