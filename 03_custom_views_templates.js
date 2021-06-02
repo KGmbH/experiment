@@ -45,6 +45,8 @@ const post_test_customized = magpieViews.view_generator(
    edu_higher_degree: 'Hochschulabschluss',
    languages_question: 'Muttersprache',
    languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
+   languages_question: 'Muttersprache2',
+   languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
    comments_question: 'Kommentare zum Experiment'
 },
     // custom generator functions
