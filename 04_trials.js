@@ -64,17 +64,6 @@ const trial_info = {
     underline: 'none'
   },
   {
-    sentence: "Der | Mensch, | der | sich | da | drüben | sonnt, | sollte | sich | schnell | eincremen. | Er | bekommt | sonst | Sonnenbrand.",
-    question: "Ist es sonnig?",
-    option1: "Ja",
-    option2: "Nein",
-    correct_answer: "Ja",
-    itemname: "filler_sonne",
-    participant_group: "A",
-    participant_id: participantID,
-    condition: "BGP"
-  },
-  {
     sentence: "Eben | ist | Ezra | an | mir | vorbeigelaufen, | ohne | mich | zu | begrüßen. | Scheinbar | hatte | si*er | es | eilig.",
     question: "War Ezra mit dem Fahrrad unterwegs?",
     option1: "Ja",
@@ -184,6 +173,30 @@ const trial_info = {
     participant_group: coin,
     participant_id: participantID,
     wordPos: 'same',
+    underline: 'none'
+  },
+  {
+    sentence: "Mit | dem | Menschen | am | Telefon | habe | ich | tatsächlich | relativ | wenig | gemeinsam. | Sie | interessiert | sich | nicht | für | meine | Belange.",
+    question: "Ist der Mensch am Telefon interessiert?",
+    option1: "Ja",
+    option2: "Nein",
+    correct_answer: "Nein",
+    itemname: "filler_telefon",
+    participant_group: "A",
+    participant_id: participantID,
+    condition: "BGP",
+    underline: 'none'
+  },
+{
+    sentence: "Der | Mensch, | der | sich | da | drüben | sonnt, | sollte | sich | schnell | eincremen. | Er | bekommt | sonst | Sonnenbrand.",
+    question: "Ist es sonnig?",
+    option1: "Ja",
+    option2: "Nein",
+    correct_answer: "Ja",
+    itemname: "filler_sonne",
+    participant_group: "A",
+    participant_id: participantID,
+    condition: "BGP",
     underline: 'none'
   },
   {
