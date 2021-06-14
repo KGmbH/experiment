@@ -4,9 +4,40 @@
 *
 *
 */
-const coin = "A"; // You can determine global (random) parameters here
+const coin = _.sample(["A", "B"]);  // You can determine global (random) parameters here
 
-
+const pronouns = {
+    "1name_hbf": { "A" : "si*er", "B" : "er"} ,
+    "3name_kaugummi": { "A" : "Si*er", "B" : "Sie"} ,
+    "5name_allergie": { "A" : "si*er", "B" : "er"} ,
+    "7name_gruss": { "A" : "si*er", "B" : "sie"} ,
+    "9name_arbeit": { "A" : "Si*er", "B" : "Er"} ,
+    "11person_bewerbung": { "A" : "si*er", "B" : "sie"} ,
+    "13person_bus": { "A" : "Si*er", "B" : "Er"} ,
+    "15person_seminar": { "A" : "si*er", "B" : "sie"} ,
+    "17person_gemeinderat": { "A" : "Si*er", "B" : "Er"} ,
+    "19person_hausgemeinschaft": { "A" : "Si*er", "B" : "Sie"} ,
+    "21mensch_ampel": { "A" : "Si*er", "B" : "Er"} ,
+    "23mensch_wahl": { "A" : "si*er", "B" : "sie"} ,
+    "25mensch_examen": { "A" : "Si*er", "B" : "Er"} ,
+    "27mensch_kasse": { "A" : "Si*er", "B" : "Sie"} ,
+    "29mensch_krankenkasse": { "A" : "si*er", "B" : "er"} ,
+    "2name_sicherung": { "A" : "er", "B" : "si*er"} ,
+    "4name_balkon": { "A" : "sie", "B" : "si*er"} ,
+    "6mensch_verwaehlt": { "A" : "er", "B" : "si*er"} ,
+    "8name_computer": { "A" : "sie", "B" : "si*er"} ,
+    "10name_institut": { "A" : "sie", "B" : "si*er"} ,
+    "12name_fussball": { "A" : "er", "B" : "si*er"} ,
+    "14person_handschrift": { "A" : "Er", "B" : "Si*er"} ,
+    "16person_tee": { "A" : "sie", "B" : "si*er"} ,
+    "18person_theater": { "A" : "Er", "B" : "Si*er"} ,
+    "20mensch_vorhang": { "A" : "Er", "B" : "Si*er"} ,
+    "22person_jacke": { "A" : "sie", "B" : "si*er"} ,
+    "24person_garten": { "A" : "Sie", "B" : "Si*er"} ,
+    "26mensch_telefon": { "A" : "Er", "B" : "Si*er"} ,
+    "28mensch_sonne": { "A" : "Er", "B" : "Si*er"} ,
+    "30mensch_auto": { "A" : "er", "B" : "si*er"} 
+    }
 
 
 /* Helper functions
