@@ -38,7 +38,7 @@ const trial_info = {
     }
   ],
   spr: [{
-    sentence: "Alex | fährt | täglich | mit | dem | Bus | zum | Hauptbahnhof. | Den | Anschlusszug | bekommt | ".concat(pronouns.1name_hbf[coin],"  | leider | nicht | immer.",
+    sentence: "Alex | fährt | täglich | mit | dem | Bus | zum | Hauptbahnhof. | Den | Anschlusszug | bekommt | "".concat(pronouns.1name_hbf[coin],"  | leider | nicht | immer.",
     question: "Fährt Alex mehr als zwei Mal pro Monat mit dem Bus zum Hauptbahnhof?",
     option1: "Ja",
     option2: "Nein",
@@ -51,7 +51,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Mit | Konny | bin | ich | gern | unterwegs. | Der | Grund | ist	| ganz | einfach: | .concat(pronouns.3name_kaugummi[coin]," | hat | immer | Kaugummis | dabei.",
+    sentence: "Mit | Konny | bin | ich | gern | unterwegs. | Der | Grund | ist	| ganz | einfach: | ".concat(pronouns.3name_kaugummi[coin]," | hat | immer | Kaugummis | dabei.",
     question: "Hat Konny selten Kaugummis dabei?",
     option1: "Ja",
     option2: "Nein",
@@ -64,7 +64,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Obwohl | wir | gut | befreundet | sind, | kommt | Kyo | selten | vorbei. | Vermutlich, | weil | .concat(pronouns.5name_allergie[coin]," | eine | starke | Katzenhaarallergie | hat.",
+    sentence: "Obwohl | wir | gut | befreundet | sind, | kommt | Kyo | selten | vorbei. | Vermutlich, | weil | ".concat(pronouns.5name_allergie[coin]," | eine | starke | Katzenhaarallergie | hat.",
     question: "Ist Kyo allergisch gegen Hunde?",
     option1: "Ja",
     option2: "Nein",
@@ -77,7 +77,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Eben | ist | Ezra | an | mir | vorbeigelaufen, | ohne | mich | zu | begrüßen. | Kann | .concat(pronouns.7name_gruss[coin]," | nicht | aufmerksamer | sein?",
+    sentence: "Eben | ist | Ezra | an | mir | vorbeigelaufen, | ohne | mich | zu | begrüßen. | Kann | ".concat(pronouns.7name_gruss[coin]," | nicht | aufmerksamer | sein?",
     question: "War Ezra mit dem Fahrrad unterwegs?",
     option1: "Ja",
     option2: "Nein",
@@ -90,7 +90,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Ich | kann | mit | Avery | einfach | nicht | zusammenarbeiten. | Was | mich | besonders | nervt: | .concat(pronouns.9name_arbeit[coin]," | schaut | nur | auf‘s | Handy!",
+    sentence: "Ich | kann | mit | Avery | einfach | nicht | zusammenarbeiten. | Was | mich | besonders | nervt: | ".concat(pronouns.9name_arbeit[coin]," | schaut | nur | auf‘s | Handy!",
     question: "Ist die Zusammenarbeit mit Avery einfach?",
     option1: "Ja",
     option2: "Nein",
@@ -103,7 +103,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Die | Person | neben | mir | im | Zug | liest | eine | Stellenbeschreibung. | Vermutlich | hat | .concat(pronouns.11person_bewerbung[coin]," | später | noch | ein | Bewerbungsgespräch.",
+    sentence: "Die | Person | neben | mir | im | Zug | liest | eine | Stellenbeschreibung. | Vermutlich | hat | ".concat(pronouns.11person_bewerbung[coin]," | später | noch | ein | Bewerbungsgespräch.",
     question: "Liest die Person einen Flyer?",
     option1: "Ja",
     option2: "Nein",
@@ -116,7 +116,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Nach | mir | ist | nur | eine | weitere | Person | in | den | Bus | gestiegen. | .concat(pronouns.13person_bus[coin]," | ist | genau | wie | ich | an | der | letzten | Haltestelle | ausgestiegen.",
+    sentence: "Nach | mir | ist | nur | eine | weitere | Person | in | den | Bus | gestiegen. | ".concat(pronouns.13person_bus[coin]," | ist | genau | wie | ich | an | der | letzten | Haltestelle | ausgestiegen.",
     question: "Sind mindestens zwei Personen an der letzten Haltestelle ausgestiegen?",
     option1: "Ja",
     option2: "Nein",
@@ -129,7 +129,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "In | meinem | Seminar | war | nur | eine | Person | ohne | eigenes | Referatsthema. | Dass | .concat(pronouns.15person_seminar[coin]," | sich | meiner | Gruppe | angeschlossen | hat, | war | für | mich | ok.",
+    sentence: "In | meinem | Seminar | war | nur | eine | Person | ohne | eigenes | Referatsthema. | Dass | ".concat(pronouns.15person_seminar[coin]," | sich | meiner | Gruppe | angeschlossen | hat, | war | für | mich | ok.",
     question: "Hatten alle Personen im Seminar von Beginn an ein Referatsthema?",
     option1: "Ja",
     option2: "Nein",
@@ -142,7 +142,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Es | wurde | eine | neue | Person | in | den | Gemeinderat | gewählt. | Gut | ist: | .concat(pronouns.17person_gemeinderat[coin]," | bringt | schon | politische | Vorerfahrung | mit.",
+    sentence: "Es | wurde | eine | neue | Person | in | den | Gemeinderat | gewählt. | Gut | ist: | ".concat(pronouns.17person_gemeinderat[coin]," | bringt | schon | politische | Vorerfahrung | mit.",
     question: "Hat das neue Mitglied im Gemeinderat politische Vorerfahrung?",
     option1: "Ja",
     option2: "Nein",
@@ -155,7 +155,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Mit | der | Person | da | drüben | versteht | sich | niemand | in | der | Hausgemeinschaft. | .concat(pronouns.19person_hausgemeinschaft[coin]," | soll | einfach | ausziehen, | das | wäre | am | besten.",
+    sentence: "Mit | der | Person | da | drüben | versteht | sich | niemand | in | der | Hausgemeinschaft. | ".concat(pronouns.19person_hausgemeinschaft[coin]," | soll | einfach | ausziehen, | das | wäre | am | besten.",
     question: "Verstehen sich alle gut mit der Person?",
     option1: "Ja",
     option2: "Nein",
@@ -168,7 +168,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Der | Mensch | an | der | Ampel | eben | hatte | denselben | Klingelton | wie | ich. | .concat(pronouns.21mensch_ampel[coin]," | war | ziemlich | überrascht, | als | ich | ebenfalls | nach | meinem | Handy | griff.",
+    sentence: "Der | Mensch | an | der | Ampel | eben | hatte | denselben | Klingelton | wie | ich. | ".concat(pronouns.21mensch_ampel[coin]," | war | ziemlich | überrascht, | als | ich | ebenfalls | nach | meinem | Handy | griff.",
     question: "Hat ein Handy geklingelt?",
     option1: "Ja",
     option2: "Nein",
@@ -181,7 +181,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Die | Wahlaufsicht | hatte | nur | ein | Mensch. | Es | sah | aus, | als | sei | .concat(pronouns.23mensch_wahl[coin]," | heillos | überfordert | mit | all | den | Aufgaben.",
+    sentence: "Die | Wahlaufsicht | hatte | nur | ein | Mensch. | Es | sah | aus, | als | sei | ".concat(pronouns.23mensch_wahl[coin]," | heillos | überfordert | mit | all | den | Aufgaben.",
     question: "Hatte der Mensch nur eine einzige Aufgabe als Wahlhelfer?",
     option1: "Ja",
     option2: "Nein",
@@ -194,7 +194,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Der | Mensch | dort | gibt | sich | bei | der | schriftlichen | Prüfung | viel | Mühe. | .concat(pronouns.25mensch_examen[coin]," | ist | da | allerdings | keine | Ausnahme.",
+    sentence: "Der | Mensch | dort | gibt | sich | bei | der | schriftlichen | Prüfung | viel | Mühe. | ".concat(pronouns.25mensch_examen[coin]," | ist | da | allerdings | keine | Ausnahme.",
     question: "War die Prüfung mündlich?",
     option1: "Ja",
     option2: "Nein",
@@ -207,7 +207,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Der | Mensch | vor | mir | an | der | Kasse | hat | sich | Zeit | gelassen. | .concat(pronouns.27mensch_kasse[coin]," | ist | so | entspannt | - | so | wäre | ich | auch | gern.",
+    sentence: "Der | Mensch | vor | mir | an | der | Kasse | hat | sich | Zeit | gelassen. | ".concat(pronouns.27mensch_kasse[coin]," | ist | so | entspannt | - | so | wäre | ich | auch | gern.",
     question: "War der Mensch hektisch?",
     option1: "Ja",
     option2: "Nein",
@@ -220,7 +220,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Eben | hat | mich | ein | Mensch | von | der | Krankenkasse | angerufen. | Auch | wenn | .concat(pronouns.29mensch_krankenkasse[coin]," | nett | war, | war | mir | das | Gesprächsthema | unangenehm.",
+    sentence: "Eben | hat | mich | ein | Mensch | von | der | Krankenkasse | angerufen. | Auch | wenn | ".concat(pronouns.29mensch_krankenkasse[coin]," | nett | war, | war | mir | das | Gesprächsthema | unangenehm.",
     question: "War der Gesprächspartner unfreundlich?",
     option1: "Ja",
     option2: "Nein",
