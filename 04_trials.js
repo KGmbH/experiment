@@ -417,7 +417,7 @@ const trial_info = {
       underline: 'none'
     },
   {
-      sentence: "Ich | nehme | an, | der | Mensch | im | blauen | Auto | hat | sich | verfahren, | si*er | kam | schon | drei | Mal | hier | vorbei.",
+      sentence: "Ich | nehme | an, | der | Mensch | im | blauen | Auto | hat | sich | verfahren, | ".concat(pronouns.mensch_auto_30[coin]," | kam | schon | drei | Mal | hier | vorbei."),
       question: "Ist das Auto grün? ",
       option1: "Ja",
       option2: "Nein",
