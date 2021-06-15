@@ -37,8 +37,7 @@ const pronouns = {
 "mensch_telefon_26": { "A" : "Er", "B" : "Si*er"} ,
 "mensch_sonne_28": { "A" : "Er", "B" : "Si*er"} ,
 "mensch_auto_30": { "A" : "er", "B" : "si*er"} 
-    
-    }
+};
 
 
 /* Helper functions
