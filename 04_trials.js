@@ -221,19 +221,7 @@ const trial_info = {
     condition: "A_GNP",
     wordPos: 'same',
     underline: 'none'
-  },
-{
-    sentence: "Eben | hat | mich | ein | Mensch | von | der | Krankenkasse | angerufen. | Auch | wenn | ".concat(pronouns.mensch_krankenkasse_29[coin]," | nett | war, | war | mir | das | Gesprächsthema | unangenehm."),
-    question: "War der Gesprächspartner unfreundlich?",
-    option1: "Ja",
-    option2: "Nein",
-    correct_answer: "Nein",
-    itemname: "mensch_krankenkasse_29",
-    participant_group: coin,
-    participant_id: participantID,
-    condition: "A_GNP",
-    wordPos: 'same',
-    underline: 'none'
+
   }
   ],
   filler: [
