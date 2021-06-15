@@ -195,7 +195,19 @@ const trial_info = {
     condition: "A_GNP",
     wordPos: 'same',
     underline: 'none'
-
+  },
+    {
+      sentence: "Der | Mensch | dort | gibt | sich | bei | der | schriftlichen | Prüfung | viel | Mühe. | ".concat(pronouns.mensch_examen_25[coin]," | ist | da | allerdings | keine | Ausnahme."),
+      question: "War die Prüfung mündlich?",
+      option1: "Ja",
+      option2: "Nein",
+      correct_answer: "Nein",
+      itemname: "mensch_examen_25",
+      participant_group: coin,
+      participant_id: participantID,
+      condition: "A_GNP",
+      wordPos: 'same',
+      underline: 'none'
 
   }
   ],
