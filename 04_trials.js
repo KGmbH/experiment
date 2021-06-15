@@ -9,6 +9,7 @@ const trial_info = {
       itemname: "training_katze",
       participant_group: coin,
       participant_id: participantID,
+      condition: "training",
       wordPos: 'same',
       underline: 'none'
     },
@@ -21,6 +22,7 @@ const trial_info = {
       itemname: "training_lampe",
       participant_group: coin,
       participant_id: participantID,
+      condition: "training",
       wordPos: 'same',
       underline: 'none'
     },
@@ -33,6 +35,7 @@ const trial_info = {
       itemname: "training_doener",
       participant_group: coin,
       participant_id: participantID,
+      condition: "training",
       wordPos: 'same',
       underline: 'none'
     }
