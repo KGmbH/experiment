@@ -65,6 +65,45 @@ const trial_info = {
       condition: "A_GNP",
       wordPos: 'same',
       underline: 'none'
+    },
+    {
+      sentence: "Obwohl | wir | gut | befreundet | sind, | kommt | Kyo | selten | vorbei. | Vermutlich, | weil | ".concat(pronouns.name_allergie_5[coin]," | eine | starke | Katzenhaarallergie | hat."),
+      question: "Ist Kyo allergisch gegen Hunde?",
+      option1: "Ja",
+      option2: "Nein",
+      correct_answer: "Nein",
+      itemname: "name_allergie_5",
+      participant_group: coin,
+      participant_id: participantID,
+      condition: "A_GNP",
+      wordPos: 'same',
+      underline: 'none'
+    },
+  {
+      sentence: "Eben | ist | Ezra | an | mir | vorbeigelaufen, | ohne | mich | zu | begrüßen. | Kann | ".concat(pronouns.name_gruss_7[coin]," | nicht | aufmerksamer | sein?"),
+      question: "War Ezra mit dem Fahrrad unterwegs?",
+      option1: "Ja",
+      option2: "Nein",
+      correct_answer: "Nein",
+      itemname: "name_gruss_7",
+      participant_group: coin,
+      participant_id: participantID,
+      condition: "A_GNP",
+      wordPos: 'same',
+      underline: 'none'
+    },
+  {
+      sentence: "Ich | kann | mit | Avery | einfach | nicht | zusammenarbeiten. | Was | mich | besonders | nervt: | ".concat(pronouns.name_arbeit_9[coin]," | schaut | nur | auf‘s | Handy!"),
+      question: "Ist die Zusammenarbeit mit Avery einfach?",
+      option1: "Ja",
+      option2: "Nein",
+      correct_answer: "Nein",
+      itemname: "name_arbeit_9",
+      participant_group: coin,
+      participant_id: participantID,
+      condition: "A_GNP",
+      wordPos: 'same',
+      underline: 'none'
     }
   ],
   filler: [
