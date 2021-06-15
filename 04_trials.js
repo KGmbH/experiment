@@ -52,6 +52,19 @@ const trial_info = {
     condition: "A_GNP",
     wordPos: 'same',
     underline: 'none'
+    },
+    {
+      sentence: "Mit | Konny | bin | ich | gern | unterwegs. | Der | Grund | ist	| ganz | einfach: | ".concat(pronouns.name_kaugummi_3[coin]," | hat | immer | Kaugummis | dabei."),
+      question: "Hat Konny selten Kaugummis dabei?",
+      option1: "Ja",
+      option2: "Nein",
+      correct_answer: "Nein",
+      itemname: "name_kaugummi_3",
+      participant_group: coin,
+      participant_id: participantID,
+      condition: "A_GNP",
+      wordPos: 'same',
+      underline: 'none'
     }
   ],
   filler: [
