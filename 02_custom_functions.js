@@ -19,7 +19,7 @@ const pronouns = {
 "person_hausgemeinschaft_19": { "A" : "Si*er", "B" : "Sie"} ,
 "mensch_ampel_21": { "A" : "Si*er", "B" : "Er"} ,
 "mensch_wahl_23": { "A" : "si*er", "B" : "sie"} ,
-"mensch_examen-25": { "A" : "Si*er", "B" : "Er"} ,
+"mensch_examen_25": { "A" : "Si*er", "B" : "Er"} ,
 "mensch_kasse_27": { "A" : "Si*er", "B" : "Sie"} ,
 "mensch_krankenkasse_29": { "A" : "si*er", "B" : "er"} ,
 "name_sicherung_2": { "A" : "er", "B" : "si*er"} ,
