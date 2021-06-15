@@ -182,6 +182,58 @@ const trial_info = {
     condition: "A_GNP",
     wordPos: 'same',
     underline: 'none'
+  },
+  {
+    sentence: "Die | Wahlaufsicht | hatte | nur | ein | Mensch. | Es | sah | aus, | als | sei | ".concat(pronouns.mensch_wahl_23[coin]," | heillos | überfordert | mit | all | den | Aufgaben."),
+    question: "Hatte der Mensch nur eine einzige Aufgabe als Wahlhelfer?",
+    option1: "Ja",
+    option2: "Nein",
+    correct_answer: "Nein",
+    itemname: "mensch_wahl_23",
+    participant_group: coin,
+    participant_id: participantID,
+    condition: "A_GNP",
+    wordPos: 'same',
+    underline: 'none'
+  },
+{
+    sentence: "Der | Mensch | dort | gibt | sich | bei | der | schriftlichen | Prüfung | viel | Mühe. | ".concat(pronouns.mensch_examen_25[coin]," | ist | da | allerdings | keine | Ausnahme."),
+    question: "War die Prüfung mündlich?",
+    option1: "Ja",
+    option2: "Nein",
+    correct_answer: "Nein",
+    itemname: "mensch_examen_25",
+    participant_group: coin,
+    participant_id: participantID,
+    condition: "A_GNP",
+    wordPos: 'same',
+    underline: 'none'
+  },
+{
+    sentence: "Der | Mensch | vor | mir | an | der | Kasse | hat | sich | Zeit | gelassen. | ".concat(pronouns.mensch_kasse_27[coin]," | ist | so | entspannt | - | so | wäre | ich | auch | gern."),
+    question: "War der Mensch hektisch?",
+    option1: "Ja",
+    option2: "Nein",
+    correct_answer: "Nein",
+    itemname: "mensch_kasse_27",
+    participant_group: coin,
+    participant_id: participantID,
+    condition: "A_GNP",
+    wordPos: 'same',
+    underline: 'none'
+  },
+{
+    sentence: "Eben | hat | mich | ein | Mensch | von | der | Krankenkasse | angerufen. | Auch | wenn | ".concat(pronouns.mensch_krankenkasse_29[coin]," | nett | war, | war | mir | das | Gesprächsthema | unangenehm."),
+    question: "War der Gesprächspartner unfreundlich?",
+    option1: "Ja",
+    option2: "Nein",
+    correct_answer: "Nein",
+    itemname: "mensch_krankenkasse_29",
+    participant_group: coin,
+    participant_id: participantID,
+    condition: "A_GNP",
+    wordPos: 'same',
+    underline: 'none'
   }
   ],
   filler: [
