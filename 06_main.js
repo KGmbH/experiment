@@ -32,7 +32,7 @@ $(window).on("load", function() {
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
             deployMethod: "debug", //"directLink", //
 //	    deployMethod: "debug",
-            contact_email: "tatjana.scheffler@rub.de"//,
+            contact_email: "lesley-ann.kern@rub.de"//,
 //            prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
         // Here, you can specify how the progress bar should look like
