@@ -54,7 +54,7 @@ const trial_info = {
     underline: 'none'
     },
     {
-      sentence: "Mit | Konny | bin | ich | gern | unterwegs. | Der | Grund | ist	| ganz | einfach: | ".concat(pronouns.name_kaugummi_3[coin]," | hat | immer | Kaugummis | dabei."),
+      sentence: "Mit | Konny | bin | ich | gern | unterwegs. | Der | Grund | ist | ganz | einfach: | ".concat(pronouns.name_kaugummi_3[coin]," | hat | immer | Kaugummis | dabei."),
       question: "Hat Konny selten Kaugummis dabei?",
       option1: "Ja",
       option2: "Nein",

@@ -11,7 +11,7 @@
 
 // spr_custom: function(config, CT) {
 //         const helpText = config.data[CT].help_text !== undefined ?
-//             config.data[CT].help_text : "Press the SPACE bar to reveal the words";
+//             config.data[CT].help_text : "Leertaste drücken, um nächstes Wort anzuzeigen";
 //         return `<div class='magpie-view'>
 //                     <h1 class='magpie-view-title'>${config.title}</h1>
 //                     <p class='magpie-view-question magpie-view-qud'>${config.data[CT].QUD}</p>
