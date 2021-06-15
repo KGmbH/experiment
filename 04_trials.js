@@ -7,7 +7,7 @@ const trial_info = {
       option2: "Nein",
       correct_answer: "Nein",
       itemname: "training_katze",
-      participant_group: "A",
+      participant_group: coin,
       participant_id: participantID,
       wordPos: 'same',
       underline: 'none'
@@ -19,7 +19,7 @@ const trial_info = {
       option2: "Nein",
       correct_answer: "Nein",
       itemname: "training_lampe",
-      participant_group: "A",
+      participant_group: coin,
       participant_id: participantID,
       wordPos: 'same',
       underline: 'none'
@@ -31,7 +31,7 @@ const trial_info = {
       option2: "Nein",
       correct_answer: "Ja",
       itemname: "training_doener",
-      participant_group: "A",
+      participant_group: coin,
       participant_id: participantID,
       wordPos: 'same',
       underline: 'none'
