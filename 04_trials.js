@@ -169,6 +169,19 @@ const trial_info = {
     condition: "A_GNP",
     wordPos: 'same',
     underline: 'none'
+  },
+  {
+    sentence: "Der | Mensch | an | der | Ampel | eben | hatte | denselben | Klingelton | wie | ich. | ".concat(pronouns.mensch_ampel_21[coin]," | war | ziemlich | überrascht, | als | ich | ebenfalls | nach | meinem | Handy | griff."),
+    question: "Hat ein Handy geklingelt?",
+    option1: "Ja",
+    option2: "Nein",
+    correct_answer: "Ja",
+    itemname: "mensch_ampel_21",
+    participant_group: coin,
+    participant_id: participantID,
+    condition: "A_GNP",
+    wordPos: 'same',
+    underline: 'none'
   }
   ],
   filler: [
