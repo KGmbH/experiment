@@ -38,7 +38,7 @@ const trial_info = {
     }
   ],
   spr: [{
-    sentence: "Alex | fährt | täglich | mit | dem | Bus | zum | Hauptbahnhof. | Den | Anschlusszug | bekommt | ".concat(pronouns.name_hbf_1[coin],"  | leider | nicht | immer." ,
+    sentence: "Alex | fährt | täglich | mit | dem | Bus | zum | Hauptbahnhof. | Den | Anschlusszug | bekommt | ".concat(pronouns.name_hbf_1[coin],"  | leider | nicht | immer.") ,
     question: "Fährt Alex mehr als zwei Mal pro Monat mit dem Bus zum Hauptbahnhof?",
     option1: "Ja",
     option2: "Nein",
@@ -51,7 +51,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Mit | Konny | bin | ich | gern | unterwegs. | Der | Grund | ist	| ganz | einfach: | ".concat(pronouns.name_kaugummi_3[coin]," | hat | immer | Kaugummis | dabei.",
+    sentence: "Mit | Konny | bin | ich | gern | unterwegs. | Der | Grund | ist	| ganz | einfach: | ".concat(pronouns.name_kaugummi_3[coin]," | hat | immer | Kaugummis | dabei."),
     question: "Hat Konny selten Kaugummis dabei?",
     option1: "Ja",
     option2: "Nein",
@@ -64,7 +64,7 @@ const trial_info = {
     underline: 'none'
   },
 {
-    sentence: "Obwohl | wir | gut | befreundet | sind, | kommt | Kyo | selten | vorbei. | Vermutlich, | weil | ".concat(pronouns.name_allergie_5[coin]," | eine | starke | Katzenhaarallergie | hat.",
+    sentence: "Obwohl | wir | gut | befreundet | sind, | kommt | Kyo | selten | vorbei. | Vermutlich, | weil | ".concat(pronouns.name_allergie_5[coin]," | eine | starke | Katzenhaarallergie | hat."),
     question: "Ist Kyo allergisch gegen Hunde?",
     option1: "Ja",
     option2: "Nein",
