@@ -38,7 +38,7 @@ const trial_info = {
     }
   ],
   spr: [{
-    sentence: "Alex | fährt | täglich | mit | dem | Bus | zum | Hauptbahnhof. | Den | Anschlusszug | bekommt | ".concat(pronouns.name_hbf_1[coin],"  | leider | nicht | immer.",
+    sentence: "Alex | fährt | täglich | mit | dem | Bus | zum | Hauptbahnhof. | Den | Anschlusszug | bekommt | ".concat(pronouns.name_hbf_1[coin],"  | leider | nicht | immer." ,
     question: "Fährt Alex mehr als zwei Mal pro Monat mit dem Bus zum Hauptbahnhof?",
     option1: "Ja",
     option2: "Nein",
