@@ -36,7 +36,7 @@ const intro = magpieViews.view_generator("intro", {
             <br />
             <br />Bei Fragen wenden Sie sich bitte an <a href="mailto:lesley-ann.kern@rub.de">Lesley-Ann Kern</a>, Ruhr-Universität Bochum.
             <br />
-            <br />Mehr zum Ziel des Experiments und zur Aufgabenstellung erfahren Sie auf der folgenden Seite. Die Durchführung des Experiments dauert ca. ## Minuten.
+            <br />Mehr zum Ziel des Experiments und zur Aufgabenstellung erfahren Sie auf der folgenden Seite. Die Durchführung des Experiments dauert ca. ## Minuten. Sie sind in Gruppe <strong>${coin}</strong>.
 `,
     buttonText: 'Weiter zur Aufgabenstellung',
     title: 'Hallo!'
