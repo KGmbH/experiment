@@ -19,20 +19,24 @@ $(window).on("load", function() {
             intro,
             instructions,
 	    spr_tryout,
-	    spr_test,
+        spr_test1,
+        spr_pic3,
+        spr_test2,
+        spr_pic2,
+        spr_test3,
             post_test_customized,
             thanks,
         ],
         // Here, you can specify all information for the deployment
         deploy: {
-            experimentID: "5",
+            experimentID: "7",
             serverAppURL: "https://thrifty-narrow-sugarglider.gigalixirapp.com/api/submit_experiment/",
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
-            deployMethod: "debug", //"directLink", //
-//	    deployMethod: "debug",
-            contact_email: "lesley-ann.kern@rub.de"//,
+            //deployMethod: "debug", //"directLink", //
+            deployMethod: "directLink",
+            contact_email: "Hannah.Seemann@rub.de"//,
 //            prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
         // Here, you can specify how the progress bar should look like
@@ -40,7 +44,12 @@ $(window).on("load", function() {
             in: [
                 // list the view-names of the views for which you want a progress bar
 		spr_tryout.name,
-		spr_test.name
+		spr_test1.name,
+        spr_test2.name,
+        spr_test3.name,
+        //spr_pic1.name,
+        spr_pic2.name,
+        spr_pic3.name
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "default",

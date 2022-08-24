@@ -26,7 +26,9 @@ const intro = magpieViews.view_generator("intro", {
   text: `Herzlich willkommen bei meinem digitalen Leseexperiment. 
             <br />
             <br />
-            Mein Name ist Lesley-Ann Kern und ich schreibe aktuell meine Masterarbeit im Fach Germanistik an der Ruhr-Universität Bochum. Dieses digitale Leseexperiment ist Teil meiner Abschlussarbeit. Die Ergebnisse des Experiments werde ich in meiner Arbeit auswerten – allerdings wird kein Rückschluss auf Einzelpersonen möglich sein und alle Daten werden selbstverständlich anonymisiert. 
+            Mein Name ist Hannah Seemann und ich schreibe aktuell meine Masterarbeit im Fach Germanistik an der Ruhr-Universität Bochum. 
+            Dieses digitale Leseexperiment ist Teil meiner Abschlussarbeit. Die Ergebnisse des Experiments werde ich in meiner Arbeit 
+            auswerten – allerdings wird kein Rückschluss auf Einzelpersonen möglich sein und alle Daten werden selbstverständlich anonymisiert. 
             <br />
             <br />
             Mit Ihrer Teilnahme am Experiment bestätigen Sie, dass Sie mit diesem Vorhaben einverstanden sind. 
@@ -34,9 +36,10 @@ const intro = magpieViews.view_generator("intro", {
             <br />
             Selbstverständlich können Sie das Experiment zu jedem Zeitpunkt abbrechen.
             <br />
-            <br />Bei Fragen wenden Sie sich bitte an <a href="mailto:lesley-ann.kern@rub.de">Lesley-Ann Kern</a>, Ruhr-Universität Bochum.
+            <br />Bei Fragen wenden Sie sich bitte an <a href="mailto:hannah.seemann@rub.de">Hannah Seemann</a>, Ruhr-Universität Bochum.
             <br />
-            <br />Mehr zum Ziel des Experiments und zur Aufgabenstellung erfahren Sie auf der folgenden Seite. Die Durchführung des Experiments dauert ca. 10 Minuten. Sie sind in Gruppe <strong>${coin}</strong>.
+            <br />Mehr zum Ziel des Experiments und zur Aufgabenstellung erfahren Sie auf der folgenden Seite. 
+            Die Durchführung des Experiments dauert ca. 15 Minuten. Sie sind in Gruppe <strong>${coin}</strong>.
 `,
     buttonText: 'Weiter zur Aufgabenstellung',
     title: 'Hallo!'
@@ -50,13 +53,19 @@ const instructions = magpieViews.view_generator("instructions", {
   text: `Ziel des Experiments ist, Lesezeiten in bestimmten Satzkonstruktionen zu untersuchen. 
   <br />
   <br />
-  Dafür werden Ihnen im Folgenden Sätze präsentiert, die Sie lesen sollen. Im Anschluss an einige Sätze wird Ihnen eine Frage zum Inhalt des Satzes gestellt. 
+  Dafür werden Ihnen im Folgenden Sätze aus sozialen Medien präsentiert, die Sie lesen sollen. 
+  Im Anschluss wird Ihnen eine Frage zur im Satz beschriebenen Situation gestellt. 
   <br />
   <br />
-  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, und das nächste Wort erscheint. Sie können im Satz nicht zurück gehen.
+  Die Sätze werden Ihnen Wort für Wort präsentiert. Haben Sie ein Wort gelesen, drücken Sie auf die Leertaste, 
+  und das nächste Wort erscheint. Sie können im Satz nicht zurück gehen.
   <br />
   <br />
-  Bitte lesen Sie möglichst in Ihrem natürlichen Lesetempo. 
+  Weiterhin werden Ihnen in regelmäßigen Abständen Bilder präsentiert. Nach zweifachem Drücken der Leertaste 
+  wird Ihnen eine Frage zum Inhalt des Bildes gestellt.
+  <br />
+  <br />
+  Bitte lesen Sie die Sätze möglichst in Ihrem natürlichen Lesetempo. 
   <br />
   <br />
   Wichtig: Das Experiment kann nicht auf Mobilgeräten, sondern nur an einem Computer/Laptop mit Tastatur durchgeführt werden. 
@@ -71,29 +80,19 @@ const post_test = magpieViews.view_generator("post_test", {
   trials: 1,
   name: 'post_test',
   title: 'Weitere Informationen',
-    text: 'Diese Angaben sind komplett freiwillig, helfen mir allerdings bei der Auswertung der Ergebnisse. <br/>Bitte klicken Sie zuletzt unbedingt unten auf "WEITER", da Ihre Daten sonst nicht gespeichert werden.',
+    text: 'Diese Angaben sind komplett freiwillig, helfen mir allerdings bei der Auswertung der Ergebnisse. <br/> Bitte klicken Sie zuletzt unbedingt unten auf "WEITER", da Ihre Daten sonst nicht gespeichert werden.',
 
   // You can change much of what appears here, e.g., to present it in a different language, as follows:
    buttonText: 'Weiter',
-  age_question: 'Alter',
-  gender_question: 'Geschlecht',
-   gender_male: 'männlich',
-   gender_female: 'weiblich',
-   gender_other: 'divers',
-   edu_question: 'Höchster Bildungsabschluss',
-   edu_graduated_high_school: 'kein Schulabschluss',
-   edu_graduated_college: 'Schulabschluss',
-   edu_higher_degree: 'Hochschulabschluss',
+   age_question: 'Alter',
    languages_question: 'Muttersprache',
-   languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
-   comments_question: 'Kommentare'
 });
 
 // The 'thanks' view is crucial; never delete it; it submits the results!
 const thanks = magpieViews.view_generator("thanks", {
   trials: 1,
   name: 'thanks',
-  title: 'Vielen Dank für Ihre Teilnahme an meinem Leseexperiment!',
+  title: 'Vielen Dank für Ihre Teilnahme an meinem Leseexperiment! <br/> Für Nutzer von SurveyCircle (www.surveycircle.com): Der Survey Code lautet: 8EMP-RNZU-7RM3-8MY6',
   prolificConfirmText: 'Bitte Knopf drücken'
 });
 
@@ -119,8 +118,6 @@ const thanks = magpieViews.view_generator("thanks", {
 * All about the properties of trial views
 * https://magpie-ea.github.io/magpie-docs/01_designing_experiments/01_template_views/#trial-views
 */
-
-
 
 
 
@@ -253,7 +250,7 @@ var my_spr_answer_cont = function(config, CT){
 }
 
 
-// Create a first try-out self paced reading task (two items)
+// Create a first try-out self paced reading task (three items)
 const spr_tryout = magpieViews.view_generator("self_paced_reading", {
     trials: trial_info.tryout.length,
     name: 'spr_tryout',
@@ -264,25 +261,71 @@ const spr_tryout = magpieViews.view_generator("self_paced_reading", {
         handle_response_function: my_spr_response
     })
 
-// const spr_test = magpieViews.view_generator("self_paced_reading", {
-//     trials: trial_info.spr.length,
-//     name: 'spr_test',
-//     data: _.shuffle(trial_info.spr)}, // random order
-//     {
-// 	stimulus_container_generator: stimulus_container_generators.self_paced_reading,
-//         answer_container_generator:  my_spr_answer_cont, //answer_container_generators.button_choice,
-//         handle_response_function: my_spr_response // handle_response_functions.self_paced_reading
-//     })
-
-
-const spr_test = magpieViews.view_generator("self_paced_reading", {
-    trials: trial_info.spr.length + trial_info.filler.length,
-    name: 'spr_test',
-    data: _.shuffle(trial_info.spr.concat(trial_info.filler))}, // random order
+const spr_test1 = magpieViews.view_generator("self_paced_reading", {
+    trials: trial_info.spr1.length,
+    name: 'spr_test1',
+    data: _.shuffle(trial_info.spr1)}, // random order
     {
-	stimulus_container_generator: stimulus_container_generators.self_paced_reading,
+ 	stimulus_container_generator: stimulus_container_generators.self_paced_reading,
         answer_container_generator:  my_spr_answer_cont, //answer_container_generators.button_choice,
         handle_response_function: my_spr_response // handle_response_functions.self_paced_reading
     })
+const spr_test2 = magpieViews.view_generator("self_paced_reading", {
+    trials: trial_info.spr2.length,
+    name: 'spr_test2',
+    data: _.shuffle(trial_info.spr2)}, // random order
+    {
+    stimulus_container_generator: stimulus_container_generators.self_paced_reading,
+        answer_container_generator:  my_spr_answer_cont, //answer_container_generators.button_choice,
+        handle_response_function: my_spr_response // handle_response_functions.self_paced_reading
+    })
+const spr_test3 = magpieViews.view_generator("self_paced_reading", {
+    trials: trial_info.spr3.length,
+    name: 'spr_test3',
+    data: _.shuffle(trial_info.spr3)}, // random order
+    {
+    stimulus_container_generator: stimulus_container_generators.self_paced_reading,
+        answer_container_generator:  my_spr_answer_cont, //answer_container_generators.button_choice,
+        handle_response_function: my_spr_response // handle_response_functions.self_paced_reading
+    })    
+    
+//alte Version mit Fillern inklusive
+//const spr_test = magpieViews.view_generator("self_paced_reading", {
+//    trials: trial_info.spr.length + trial_info.filler.length,
+//    name: 'spr_test',
+//    data: trial_info.spr},
+//    data: _.shuffle(trial_info.spr.concat(trial_info.filler))}, // random order
+//    {
+//	stimulus_container_generator: stimulus_container_generators.self_paced_reading,
+//        answer_container_generator:  my_spr_answer_cont, //answer_container_generators.button_choice,
+//        handle_response_function: my_spr_response // handle_response_functions.self_paced_reading
+//    })
 
-
+//die Bild-Filler, jeweils einzeln für Einfügen an unterschiedlichen Stellen im Ablauf    
+const spr_pic1 = magpieViews.view_generator("self_paced_reading", {
+    trials: 1,
+    name: 'spr_pic1',
+    data: trial_info.pic1}, 
+    {
+    stimulus_container_generator: stimulus_container_generators.self_paced_reading,
+        answer_container_generator:  my_spr_answer_cont, //answer_container_generators.button_choice,
+        handle_response_function: my_spr_response // handle_response_functions.self_paced_reading
+    })
+const spr_pic2 = magpieViews.view_generator("self_paced_reading", {
+    trials: 1,
+    name: 'spr_pic2',
+    data: trial_info.pic2}, 
+    {
+    stimulus_container_generator: stimulus_container_generators.self_paced_reading,
+        answer_container_generator:  my_spr_answer_cont, //answer_container_generators.button_choice,
+        handle_response_function: my_spr_response // handle_response_functions.self_paced_reading
+    })
+const spr_pic3 = magpieViews.view_generator("self_paced_reading", {
+    trials: 1,
+    name: 'spr_pic3',
+    data: trial_info.pic3}, 
+    {
+    stimulus_container_generator: stimulus_container_generators.self_paced_reading,
+        answer_container_generator:  my_spr_answer_cont, //answer_container_generators.button_choice,
+        handle_response_function: my_spr_response // handle_response_functions.self_paced_reading
+    })    

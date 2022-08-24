@@ -30,21 +30,13 @@ const post_test_customized = magpieViews.view_generator(
         trials: 1,
         name: 'post_test',
   title: 'Weitere Informationen',
-    text: '<br>Diese Angaben sind komplett freiwillig, helfen mir allerdings bei der Auswertung der Ergebnisse. Bitte klicken Sie zuletzt unbedingt unten auf "WEITER", da Ihre Daten sonst nicht gespeichert werden.</br> <br> Um eine bessere Überprüfbarkeit der Ergebnisse zu ermöglichen, würde ich mich sehr freuen, wenn Sie in zwei Wochen erneut an diesem Experiment teilnehmen würden. Damit Ihre beiden Experimentteilnahmen bei meiner Auswertung miteinander verknüpft werden können, bitte ich Sie, im Kommentarfeld einen Code einzugeben, der sich folgendermaßen zusammensetzt:</br> <br> 2. und 3. Buchstabe Ihres Vornamens + 2. und 3. Buchstabe des Vornamens Ihrer Mutter + letzten beiden Ziffern Ihrer Postleitzahl.</br> <br> Beispiel: Ihr Vorname lautet Mika, der Vorname Ihrer Mutter lautet Susi, Sie wohnen in Bochum-Mitte (44787). Der Code lautet dann IKUS87.</br><br> Die Teilnahme am Experiment ist bis zum 30.06.2021 möglich!</br>',
+    text: '<br> Diese Angaben sind komplett freiwillig, helfen mir allerdings bei der Auswertung der Ergebnisse. Bitte klicken Sie zuletzt unbedingt unten auf "WEITER", \
+    da Ihre Daten sonst nicht gespeichert werden.</br>',
 
   // You can change much of what appears here, e.g., to present it in a different language, as follows:
    buttonText: 'Weiter',
-  age_question: 'Alter',
-  gender_question: 'Geschlecht',
-   gender_male: 'männlich',
-   gender_female: 'weiblich',
-   gender_other: 'divers',
-   edu_question: 'Höchster Bildungsabschluss',
-   edu_graduated_high_school: 'kein Schulabschluss',
-   edu_graduated_college: 'Schulabschluss',
-   edu_higher_degree: 'Hochschulabschluss',
+   age_question: 'Alter',
    languages_question: 'Muttersprache',
-   languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
    comments_question: 'Kommentare zum Experiment'
 },
     // custom generator functions
@@ -54,46 +46,17 @@ const post_test_customized = magpieViews.view_generator(
         const quest = magpieUtils.view.fill_defaults_post_test(config);
         return `<form>
                     <p class='magpie-view-text'>
-                     <label for="emoji">Wie ist Ihre Einstellung in Bezug auf geschlechtergerechte Sprache?</label>
-                     <select id="gender" name="gender">
-                            <option></option>
-                            <option value="keine">Ich habe keine Einstellung dazu.</option>
-                            <option value="furchtbar">Ich finde geschlechtergerechte Sprache furchtbar.</option>
-                            <option value="schlecht">Ich finde geschlechtergerechte Sprache schlecht.</option>
-                            <option value="egal">Ich finde geschlechtergerechte Sprache egal.</option>
-                            <option value="gut">Ich finde geschlechtergerechte Sprache gut.</option>
-                            <option value="wichtig">Ich finde geschlechtergerechte Sprache wichtig.</option>
-                        </select>
-                    <p class='magpie-view-text'>
                         <label for="age">${quest.age.title}:</label>
                         <input type="number" name="age" min="10" max="110" id="age" />
                     </p>
                     <p class='magpie-view-text'>
-                        <label for="gender">${quest.gender.title}:</label>
-                        <select id="gender" name="gender">
-                            <option></option>
-                            <option value="${quest.gender.male}">${quest.gender.male}</option>
-                            <option value="${quest.gender.female}">${quest.gender.female}</option>
-                            <option value="${quest.gender.other}">${quest.gender.other}</option>
-                        </select>
-                    </p>
-                    <p class='magpie-view-text'>
-                        <label for="education">${quest.edu.title}:</label>
-                        <select id="education" name="education">
-                            <option></option>
-                            <option value="${quest.edu.graduated_high_school}">${quest.edu.graduated_high_school}</option>
-                            <option value="${quest.edu.graduated_college}">${quest.edu.graduated_college}</option>
-                            <option value="${quest.edu.higher_degree}">${quest.edu.higher_degree}</option>
-                        </select>
-                    </p>
-                    <p class='magpie-view-text'>
-                        <label for="languages" name="languages">${quest.langs.title}:<br /><span>${quest.langs.text}</</span></label>
+                        <label for="languages" name="languages">${quest.langs.title}:</span></label>
                         <input type="text" id="languages"/>
                     </p>
                     <p class="magpie-view-text">
-                        <label for="comments">${quest.comments.title}</label>
-                        <textarea name="comments" id="comments" rows="6" cols="40"></textarea>
-                    </p>
+                    <label for="comments">${quest.comments.title}</label>
+                    <textarea name="comments" id="comments" rows="6" cols="40"></textarea>
+                </p>
                     <button id="next" class='magpie-view-button'>${config.button}</button>
             </form>`},
 	handle_response_function: function(config, CT, magpie, answer_container_generator, startingTime) {
@@ -104,10 +67,7 @@ const post_test_customized = magpieViews.view_generator(
 		e.preventDefault();
 
 		// records the post test info
-		magpie.global_data.emoji = $("#emoji").val();
 		magpie.global_data.age = $("#age").val();
-		magpie.global_data.gender = $("#gender").val();
-		magpie.global_data.education = $("#education").val();
 		magpie.global_data.languages = $("#languages").val();
 		magpie.global_data.comments = $("#comments")
 		    .val()

@@ -1,49 +1,51 @@
 // Here, you can define all custom functions, you want to use and initialize some variables
 
 /* Variables
-*
-*
+* coin = Gruppen A und B
+* MPs = je nach Gruppe eine oder keine Modalpartikel im Satz 
 */
 const coin = _.sample(["A", "B"]);  // You can determine global (random) parameters here
 
-const pronouns = {
-"name_hbf_1": { "A" : "si*er", "B" : "er"} ,
-"name_kaugummi_3": { "A" : "Si*er", "B" : "Sie"} ,
-"name_allergie_5": { "A" : "si*er", "B" : "er"} ,
-"name_gruss_7": { "A" : "si*er", "B" : "sie"} ,
-"name_arbeit_9": { "A" : "Si*er", "B" : "Er"} ,
-"person_bewerbung_11": { "A" : "si*er", "B" : "sie"} ,
-"person_bus_13": { "A" : "Si*er", "B" : "Er"} ,
-"person_seminar_15": { "A" : "si*er", "B" : "sie"} ,
-"person_gemeinderat_17": { "A" : "Si*er", "B" : "Er"} ,
-"person_hausgemeinschaft_19": { "A" : "Si*er", "B" : "Sie"} ,
-"mensch_ampel_21": { "A" : "Si*er", "B" : "Er"} ,
-"mensch_wahl_23": { "A" : "si*er", "B" : "sie"} ,
-"mensch_examen_25": { "A" : "Si*er", "B" : "Er"} ,
-"mensch_kasse_27": { "A" : "Si*er", "B" : "Sie"} ,
-"mensch_krankenkasse_29": { "A" : "si*er", "B" : "er"} ,
-"name_sicherung_2": { "A" : "er", "B" : "si*er"} ,
-"name_balkon_4": { "A" : "sie", "B" : "si*er"} ,
-"mensch_verwaehlt_6": { "A" : "er", "B" : "si*er"} ,
-"name_computer_8": { "A" : "sie", "B" : "si*er"} ,
-"name_institut_10": { "A" : "sie", "B" : "si*er"} ,
-"name_fussball_12": { "A" : "er", "B" : "si*er"} ,
-"person_handschrift_14": { "A" : "Er", "B" : "Si*er"} ,
-"person_tee_16": { "A" : "sie", "B" : "si*er"} ,
-"person_theater_18": { "A" : "Er", "B" : "Si*er"} ,
-"mensch_vorhang_20": { "A" : "Er", "B" : "Si*er"} ,
-"person_jacke_22": { "A" : "sie", "B" : "si*er"} ,
-"person_garten_24": { "A" : "Sie", "B" : "Si*er"} ,
-"mensch_telefon_26": { "A" : "Er", "B" : "Si*er"} ,
-"mensch_sonne_28": { "A" : "Er", "B" : "Si*er"} ,
-"mensch_auto_30": { "A" : "er", "B" : "si*er"} 
+const MPs = {
+"b_sem_doch1": { "A" : "Kleinen | doch | mal", "B" : "Kleinen | mal"} ,
+"b_sem_denn2": { "A" : "soll | dann", "B" : "soll | denn | dann"} ,
+"t_sem_ja3": { "A" : "hab | ja | schon", "B" : "hab | schon"} ,
+"t_sem_einfach4": { "A" : "Gläsern | nicht.", "B" : "Gläsern | einfach | nicht."} ,
+"b_prag_eigentlich5": { "A" : "aber | eigentlich | ganz", "B" : "aber | ganz"} ,
+"b_prag_ja6": { "A" : "backe | selber", "B" : "backe | ja | selber"} ,
+"t_prag_denn7": { "A" : "das | denn? | Da", "B" : "das? | Da"} ,
+"t_prag_doch8": { "A" : "warst | nie", "B" : "warst | doch | nie"} ,
+"b_text_einfach9": { "A" : "bist | einfach | da.", "B" : "bist | da."} ,
+"b_text_eigentlich10": { "A" : "das, | bereit", "B" : "das | eigentlich, | bereit"} ,
+"t_text_doch11": { "A" : "klingt | doch | ganz", "B" : "klingt | ganz"} ,
+"t_text_eigentlich12": { "A" : "ihr, | wenn ", "B" : "ihr | eigentlich, | wenn"} ,
+
+"b_sem_eigentlich13": { "A" : "Auto | eigentlich | die", "B" : "Auto | die"} ,
+"b_sem_ja14": { "A" : "komme | so", "B" : "komme | ja | so"} ,
+"t_sem_einfach15": { "A" : "interessiert, | einfach | mal", "B" : "interessiert, | mal"} ,
+"t_sem_denn16": { "A" : "ihr | keine", "B" : "ihr | denn | keine"} ,
+"b_prag_doch17": { "A" : "ich | doch | selbst", "B" : "ich | selbst"} ,
+"b_prag_einfach18": { "A" : "nervt.", "B" : "nervt | einfach."} ,
+"t_prag_eigentlich19": { "A" : "du | eigentlich | noch", "B" : "du | noch"} ,
+"t_prag_ja20": { "A" : "hatten | den", "B" : "hatten | ja | den"} ,
+"b_text_denn21": { "A" : "soll | denn | bitteschön", "B" : "soll | bitteschön"} ,
+"b_text_doch22": { "A" : "oder | gelegentlich", "B" : "oder | doch | gelegentlich"} ,
+"t_text_einfach23": { "A" : "habe | einfach | angenommen,", "B" : "habe | angenommen,"} ,
+"t_text_denn24": { "A" : "da | noch?", "B" : "da | denn | noch?"} ,
+
+"b_sem_ja25": { "A" : "Kleidungsstücken | ja | vor.", "B" : "Kleidungsstücken | vor."} ,
+"b_sem_einfach26": { "A" : "sei | vom", "B" : "sei | einfach | vom"} ,
+"t_sem_doch27": { "A" : "Mutter | doch | Strom", "B" : "Mutter | Strom"} ,
+"t_sem_eigentlich28": { "A" : "wollte | gerade", "B" : "wollte | eigentlich | gerade"} ,
+"b_prag_denn29": { "A" : "hat | denn | jetzt", "B" : "hat | jetzt"} ,
+"b_prag_eigentlich30": { "A" : "die | nur", "B" : "die | eigentlich | nur"}, 
+"t_prag_denn31": { "A" : "hat | denn | dieses", "B" : "hat | dieses"} ,
+"t_prag_einfach32": { "A" : "macht | keinen", "B" : "macht | einfach | keinen"} ,
+"b_text_einfach33": { "A" : "er | einfach | so", "B" : "er | so"} ,
+"b_text_ja34": { "A" : "ist | ausreichend", "B" : "ist | ja | ausreichend"} ,
+"t_text_ja35": { "A" : "ihr | ja | Lust", "B" : "ihr | Lust"} ,
+"t_text_doch36": { "A" : "macht | was", "B" : "macht | doch | was"} 
 };
-
-
-/* Helper functions
-*
-*
-*/
 
 
 /* For generating random participant IDs */
@@ -61,44 +63,3 @@ const generateID = function(len) {
 
 const participantID = generateID(6);
 
-// Declare your helper functions here
-
-
-
-/* Hooks  
-*
-*
-*/
-
-// Error feedback if participants exceeds the time for responding
-const time_limit = function(data, next) {
-    if (typeof window.timeout === 'undefined'){
-        window.timeout = [];
-    }
-    // Add timeouts to the timeoutarray
-    // Reminds the participant to respond after 5 seconds
-    window.timeout.push(setTimeout(function(){
-          $('#reminder').text('Please answer more quickly!');
-    }, 5000));
-    next();
-};
-
-// compares the chosen answer to the value of `option1`
-check_response = function(data, next) {
-    $('input[name=answer]').on('change', function(e) {
-        if (e.target.value === data.correct) {
-            alert('Your answer is correct! Yey!');
-        } else {
-            alert('Sorry, this answer is incorrect :( The correct answer was ' + data.correct);
-        }
-        next();
-    })
-}
-
-// Declare your hooks here
-
-
-/* Generators for custom view templates, answer container elements and enable response functions
-*
-*
-*/
